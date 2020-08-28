@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249c8cb6-12e7-44e6-a1da-38f72a6e3c27" name="Default Changelist" comment="Finish 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="249c8cb6-12e7-44e6-a1da-38f72a6e3c27" name="Default Changelist" comment=":)">
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask_detector.model" beforeDir="false" afterPath="$PROJECT_DIR$/mask_detector.model.h5" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,10 +94,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish 1" />
+    <MESSAGE value=":)" />
+    <option name="LAST_COMMIT_MESSAGE" value=":)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1837" y="21" width="400" height="684" key="#GOPATH" timestamp="1597916291334">

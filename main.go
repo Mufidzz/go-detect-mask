@@ -2,12 +2,10 @@ package main
 
 import (
 	"fmt"
-	tf "github.com/tensorflow/tensorflow/tensorflow/go"
+	//tf "github.com/tensorflow/tensorflow/tensorflow/go"
 	"gocv.io/x/gocv"
 	"image"
 	"image/color"
-	"io/ioutil"
-	"log"
 	"path"
 )
 
@@ -17,7 +15,7 @@ func main() {
 	weightsPath := path.Join(currPath, "res10_300x300_ssd_iter_140000.caffemodel")
 	definedConfidence := float32(0.5)
 
-	modelPath := "mask_detector.model.h5"
+	//modelPath := "mask_detector.model.h5"
 
 	webcam, _ := gocv.VideoCaptureDevice(0)
 	window := gocv.NewWindow("Hello")
@@ -27,15 +25,15 @@ func main() {
 	//_, err := tf.LoadSavedModel(modelPath, []string{"serve"}, nil)
 
 	//tf.ten
-	model, err := ioutil.ReadFile(modelPath)
-	if err != nil {
-		log.Fatal("ERROR LOADING KERAS MODEL")
-	}
+	//model, err := ioutil.ReadFile(modelPath)
+	//if err != nil {
+	//	log.Fatal("ERROR LOADING KERAS MODEL")
+	//}
 
-	tfGraph := tf.NewGraph()
-	if err := tfGraph.Import(model, ""); err != nil {
-		fmt.Println(err)
-	}
+	//tfGraph := tf.NewGraph()
+	//if err := tfGraph.Import(model, ""); err != nil {
+	//	fmt.Println(err)
+	//}
 
 	img := gocv.NewMat()
 	imgOri := gocv.NewMat()
